@@ -1,6 +1,5 @@
 ## Unit Testing of SpringBoot Application using Junit5 and Mockito
 
----
 
 This project describes how to write BDD style unit testing of SpringBoot application using Junit5 and Mockito library.
 It is not only describing unit testing, it has also implementation of integration testing with MYSQL. It also shows
@@ -91,15 +90,12 @@ Unit testing for above-mentioned method in exception scenario is below.
 
 ## Integration Testing
 
----
-
 ![integrationtesting.png](assets/integrationtesting.png)
 
 ![integrationtesting2.png](assets/integrationtesting2.png)
 
 ### Sample Junit Integration Testing  Class
 
----
 ```
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @AutoConfigureMockMvc
@@ -110,7 +106,6 @@ public class EmployeeControllerITest {
 ```
 ### Data Repository Integration Test Class
 
----
 ```
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
