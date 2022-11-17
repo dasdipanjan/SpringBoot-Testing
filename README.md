@@ -1,6 +1,5 @@
 ## Unit Testing of SpringBoot Application using Junit5 and Mockito
 
----
 
 This project describes how to write BDD style unit testing of SpringBoot application using Junit5 and Mockito library.
 It is not only describing unit testing, it has also implementation of integration testing with MYSQL. It also shows
