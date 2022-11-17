@@ -93,9 +93,9 @@ Unit testing for above-mentioned method in exception scenario is below.
 
 ---
 
-![integrationtesting.png](assets/integrationtesting.png)
+![integrationtesting.png]([assets/integrationtesting.png](https://github.com/dasdipanjan/SpringBoot-Testing/blob/main/spring-boot-testing/assets/integrationtesting.png))
 
-![integrationtesting2.png](assets/integrationtesting2.png)
+![integrationtesting2.png]([assets/integrationtesting2.png](https://github.com/dasdipanjan/SpringBoot-Testing/blob/main/spring-boot-testing/assets/integrationtesting2.png))
 
 ### Sample Junit Integration Testing  Class
 
