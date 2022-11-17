@@ -90,7 +90,6 @@ Unit testing for above-mentioned method in exception scenario is below.
 
 ## Integration Testing
 
----
 
 ![integrationtesting.png]([assets/integrationtesting.png](https://github.com/dasdipanjan/SpringBoot-Testing/blob/main/spring-boot-testing/assets/integrationtesting.png))
 
@@ -98,7 +97,6 @@ Unit testing for above-mentioned method in exception scenario is below.
 
 ### Sample Junit Integration Testing  Class
 
----
 ```
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @AutoConfigureMockMvc
@@ -109,7 +107,6 @@ public class EmployeeControllerITest {
 ```
 ### Data Repository Integration Test Class
 
----
 ```
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
